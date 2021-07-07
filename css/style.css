@@ -1,5 +1,5 @@
 /*////////////// Fonts //////////////*/
-
+Baskerville,
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -10,11 +10,85 @@ body {
 	font-family: 'Times New Roman', serif; 
 }
 
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 30px;
 }
 
 /* Write all remaining styles here */
+ h1 {
+   margin: 0 0 5px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(204, 204, 204); 
+   border-bottom-width: 1px;
+   padding-bottom: 10px
+ }
+ 
+ h1 a {
+   font-family: 'Baskerville', serif;
+   font-size: 80px;
+   color: rgb(156,172,166);
+ }
+ 
+ h1 a:link {
+   text-decoration: none;
+ }
+ 
+ h1 a:hover { 
+   color: rgb(114,126,122);
+ }
+   
+ .featured img {
+   border-color: rgb(156,172,166);
+   border-style: solid;
+   border-width: 5px;
+ }
+ 
+ 
+ h2 {
+   font-size: 2em;
+   color: rgb(114,126,122)
+ }
+ 
+ span a:link {
+   text-decoration: none;
+   color: rgb(58,130,182);
+ }
+ span a:visited {
+   text-decoration: none;
+   color: rgb(58,130,182);
+ }
+ span a:hover {
+   text-decoration: underline;
+   color: rgb(58,130,182);
+ }
+ 
+ p {
+   color: rgb(85,85,85);
+   padding: 2px 0 
+ }
+ 
+ 
+ .press img {
+   border-color: rgb(204,204,204);
+   border-style: solid;
+   border-width: 5px;
+   
+ }
+ .press img:hover {
+   border-color:rgb(114,126,122)
+ }
+ 
+ .press {
+   margin-bottom: 20px;
+   text-decoration: none;
+ }
+ 
+ footer {
+   font-size: small;
+   text-align: right;
+   color: rgb(85,85,85)
+ }
